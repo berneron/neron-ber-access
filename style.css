@@ -1,0 +1,129 @@
+﻿/*
+Theme Name: Neron_Ber_access
+Theme URI: https://berislav-mr.gov.ua
+Author: the Neron
+Author URI: https://berislav-mr.gov.ua
+Description: Neron Theme For Site Berislav MR
+Version: 0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, right-sidebar, random header image, news block, news category, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: Neron
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html
+{
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	line-height: 1.15;
+}
+
+body
+{
+	background: #FFFFFF;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 14px;
+	text-rendering: geometricPrecision;
+	word-wrap: break-word;
+	text-rendering: optimizeLegibility;
+	-moz-font-feature-settings: 'liga';
+	-ms-font-feature-settings: 'liga';
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+}
+
+p
+{
+	color: #000000;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-size: 15px;
+	text-align: left;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+strong, b
+{
+    font-weight: bold;
+}
+
+hr
+{
+	color: #b4b4b4;
+	size: 1px;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5
+{
+	overflow-wrap: break-word;
+	font-family: 'Roboto Condensed', sans-serif;
+	/* font-family: Helvetica, Helvetica Neue, Arial, sans-serif; */
+	font-weight: lighter;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0px;
+}
+
+h5
+{
+	color: #444444;
+	font-weight: lighter;
+	font-size: 1em;
+}
+
+h4
+{
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+h3
+{
+	color: #4682B4;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+h2
+{
+	color: #4682B4;
+	font-size: 2em;
+}
+
+h1
+{
+	color: #4682B4;
+	font-size: 2.5em;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:50px;
+display:none;
+text-indent:-9999px;
+background: url('images/icon_top.png') no-repeat;
+}
+.sidebargray
+	{
+	/*width: 20%;*/
+	background: #CDCDC1;
+	padding: 5px;
+	border-left: 3px solid ;
+	border-color: #A4A4A4;
+	float: right;
+	margin-right: 5%;
+	}
